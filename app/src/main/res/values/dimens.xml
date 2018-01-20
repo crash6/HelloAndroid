@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_field_margin_top">2dp</dimen>
+    <dimen name="text_field_margin_bottom">14dp</dimen>
+    <dimen name="text_field_margin_left">16dp</dimen>
+    <dimen name="text_field_margin_right">16dp</dimen>
+    <dimen name="text_field_drawable_padding">8dp</dimen>
+    <dimen name="text_field_font_size">17sp</dimen>
+    <dimen name="name_field_font_size">24sp</dimen>
+</resources>

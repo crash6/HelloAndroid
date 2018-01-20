@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Style used for text fields displayed on screen -->
+    <style name="textFieldAppearance" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/text_field_font_size</item>
+        <item name="android:autoLink">all</item>
+        <item name="android:textColorLink">@color/linkColor</item>
+        <item name="android:layout_marginLeft">@dimen/text_field_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/text_field_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/text_field_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/text_field_margin_bottom</item>
+        <item name="android:drawablePadding">@dimen/text_field_drawable_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style used to make more visible the business name text field -->
+    <!-- This style inherits the behaviour from the parent (the textFieldAppearance style) and extends it -->
+    <style name="nameFieldAppearance" parent="textFieldAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/name_field_font_size</item>
+    </style>
+
+    <!-- Style used to change the company logo appearance on the screen -->
+    <style name="logoAppearance" parent="Theme.AppCompat">
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@color/logoBackground</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style used to change the main layout appearance on the screen -->
+    <style name="layoutAppearance" parent="Theme.AppCompat">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/layoutBackground</item>
+    </style>
+
+</resources>

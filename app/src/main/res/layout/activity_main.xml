@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/layoutAppearance"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    >
+
+    <ImageView style="@style/logoAppearance"
+        android:id="@+id/udacity_logo"
+        android:src="@drawable/udacity_logo"
+        />
+
+    <TextView style="@style/nameFieldAppearance"
+        android:id="@+id/udacity_name"
+        android:text="@string/business_name"
+        android:fontFamily="@font/roboto_light"
+        android:drawableLeft="@drawable/ic_business_black_48dp"
+         />
+
+    <TextView style="@style/textFieldAppearance"
+        android:id="@+id/udacity_phone"
+        android:text="@string/phone_number"
+        android:fontFamily="@font/roboto_light"
+        android:drawableLeft="@drawable/ic_phone_black_48dp"
+        />
+
+    <TextView style="@style/textFieldAppearance"
+        android:id="@+id/udacity_website"
+        android:text="@string/website"
+        android:fontFamily="@font/roboto_light"
+        android:drawableLeft="@drawable/ic_web_black_48dp"
+        />
+
+    <TextView style="@style/textFieldAppearance"
+        android:id="@+id/udacity_address"
+        android:text="@string/address"
+        android:fontFamily="@font/roboto_light"
+        android:drawableLeft="@drawable/ic_map_black_48dp"
+        />
+
+</LinearLayout>
