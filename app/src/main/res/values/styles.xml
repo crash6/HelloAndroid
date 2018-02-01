@@ -3,6 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+        <item name="android:background">@color/layoutBackground</item>
     </style>
 
     <!-- Style used for text fields displayed on screen -->
@@ -42,7 +43,7 @@
         <item name="android:orientation">vertical</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:background">@color/layoutBackground</item>
+        <!-- <item name="android:background">@color/layoutBackground</item> -->
     </style>
 
 </resources>
